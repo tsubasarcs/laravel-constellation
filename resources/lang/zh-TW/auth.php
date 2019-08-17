@@ -25,5 +25,6 @@ return [
     'logout' => '登出',
     'name' => '姓名',
     'is_login' => '您已經登入!',
-    'send_password_reset_link' => '寄出重設密碼信'
+    'send_password_reset_link' => '寄出重設密碼信',
+    'google_login' => 'GOOGLE登入'
 ];

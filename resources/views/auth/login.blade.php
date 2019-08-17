@@ -57,6 +57,10 @@
                                         @lang('auth.login')
                                     </button>
 
+                                    <a class="btn btn-danger" href="{{ route('google.login') }}">
+                                        @lang('auth.google_login')
+                                    </a>
+
                                     <a class="btn btn-link" href="{{ route('password.request') }}">
                                         @lang('auth.forget_password')
                                     </a>

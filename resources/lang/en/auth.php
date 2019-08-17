@@ -17,15 +17,15 @@ return [
     'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
     'login' => 'Login',
     'register' => 'Register',
-    'email_address' => 'Email Address',
+    'email_address' => 'Email address',
     'password' => 'Password',
-    'confirm_password' => 'Confirm Password',
-    'reset_password' => 'Reset Password',
-    'remember_me' => 'Remember Me',
-    'forget_password' => 'Forget Password?',
+    'confirm_password' => 'Confirm password',
+    'reset_password' => 'Reset password',
+    'remember_me' => 'Remember me',
+    'forget_password' => 'Forget password?',
     'logout' => 'Logout',
     'name' => 'Name',
     'is_login' => 'You are logged in!',
-    'send_password_reset_link' => 'Send Password Reset Link'
-
+    'send_password_reset_link' => 'Send password reset link',
+    'google_login' => 'Login with Google'
 ];

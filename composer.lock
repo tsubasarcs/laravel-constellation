@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1e028a9bea9d213d5c6c6ff11ae19968",
+    "content-hash": "4a5524302073c75f572f369678acaf04",
     "packages": [
         {
             "name": "caouecs/laravel-lang",
@@ -213,16 +213,16 @@
         },
         {
             "name": "egulias/email-validator",
-            "version": "2.1.10",
+            "version": "2.1.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/egulias/EmailValidator.git",
-                "reference": "a6c8d7101b19a451c1707b1b79bbbc56e4bdb7ec"
+                "reference": "92dd169c32f6f55ba570c309d83f5209cefb5e23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/a6c8d7101b19a451c1707b1b79bbbc56e4bdb7ec",
-                "reference": "a6c8d7101b19a451c1707b1b79bbbc56e4bdb7ec",
+                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/92dd169c32f6f55ba570c309d83f5209cefb5e23",
+                "reference": "92dd169c32f6f55ba570c309d83f5209cefb5e23",
                 "shasum": ""
             },
             "require": {
@@ -241,7 +241,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.0.x-dev"
+                    "dev-master": "2.1.x-dev"
                 }
             },
             "autoload": {
@@ -267,7 +267,7 @@
                 "validation",
                 "validator"
             ],
-            "time": "2019-07-19T20:52:08+00:00"
+            "time": "2019-08-13T17:33:27+00:00"
         },
         {
             "name": "erusev/parsedown",
@@ -3107,6 +3107,71 @@
                 "environment"
             ],
             "time": "2019-01-29T11:11:52+00:00"
+        },
+        {
+            "name": "yish/generators",
+            "version": "2.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Mombuyish/Laravel-Oh-Generators.git",
+                "reference": "61d96fdda27866f710119ad817d64771f7608597"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Mombuyish/Laravel-Oh-Generators/zipball/61d96fdda27866f710119ad817d64771f7608597",
+                "reference": "61d96fdda27866f710119ad817d64771f7608597",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/console": "5.*",
+                "illuminate/filesystem": "5.*",
+                "illuminate/support": "5.*",
+                "php": ">=7"
+            },
+            "require-dev": {
+                "mockery/mockery": "0.9.*",
+                "orchestra/database": "^3.5",
+                "orchestra/testbench": "^3.5",
+                "phpunit/phpunit": "~6.0"
+            },
+            "type": "library",
+            "extra": {
+                "component": "package",
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                },
+                "laravel": {
+                    "providers": [
+                        "Yish\\Generators\\GeneratorsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Yish\\Generators\\": "src/"
+                },
+                "files": [
+                    "src/Foundation/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yish",
+                    "email": "mombuartworks@gmail.com"
+                }
+            ],
+            "description": "This package extends the core file generators that are included with Laravel 5",
+            "homepage": "https://github.com/Mombuyish/Laravel-Oh-Generators",
+            "keywords": [
+                "generator",
+                "laravel",
+                "patterns"
+            ],
+            "time": "2018-09-08T12:24:07+00:00"
         }
     ],
     "packages-dev": [
