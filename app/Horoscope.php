@@ -17,7 +17,7 @@ class Horoscope extends Model
         'love',
         'career',
         'wealth',
-        'status',
+        'status'
     ];
 
     protected $dates = ['deleted_at'];
