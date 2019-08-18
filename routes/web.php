@@ -16,7 +16,7 @@ Route::get('/', function () {
 });
 
 Route::get('login/google', 'Auth\LoginController@redirectToProvider')->name('google.login');
-Route::get('login/google/callback', 'Auth\LoginController@handleProviderCallback');
+Route::get(env('GOOGLE_REDIRECT'), 'Auth\LoginController@handleProviderCallback');
 
 Auth::routes();
 
