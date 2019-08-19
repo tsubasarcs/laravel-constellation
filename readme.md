@@ -1,6 +1,6 @@
 # About Laravel Constellation
 
-* Basic Auth
+* Laravel Auth
 * Google OAuth Login
 * Crawler
 * Command
